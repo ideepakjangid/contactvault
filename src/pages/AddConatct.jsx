@@ -50,7 +50,7 @@ const AddConatct = () => {
       setLoading(true);
       const formData = new FormData();
       formData.append("name", e.target.name.value.trim());
-      formData.append("email", e.target.email.value.trim());
+      formData.append("email", e.target.email.value.toLowerCase().trim());
       formData.append("contact", contact);
       formData.append("user", user?.data?._id);
       formData.append("profile_image", imageFile);
