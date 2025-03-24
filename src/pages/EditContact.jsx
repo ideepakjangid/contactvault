@@ -95,7 +95,7 @@ const EditContact = () => {
           <IoReturnUpBackOutline className="text-xl font-bold" /> Back
         </Link>
       </div>
-      <div className="grid grid-cols-1  sm:flex gap-3 mt-4">
+      <div className="grid grid-cols-1 place-items-center  sm:flex gap-3 mt-4">
         <div className="w-[200px] h-[200px] rounded-full overflow-hidden group relative">
           <div className="flex gap-2 justify-center text-3xl text-white  items-center w-full h-full mx-auto absolute bg-black/70 opacity-0 transition duration-500 group-hover:opacity-100 ">
             <FaRegEdit
@@ -128,7 +128,7 @@ const EditContact = () => {
         </div>
         <form
           onSubmit={contactSumbitHandler}
-          className="flex-1 flex flex-col gap-3"
+          className="w-full flex-1 flex flex-col gap-3"
         >
           <input
             className="p-2 border rounded focus:outline-none"
