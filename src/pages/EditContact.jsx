@@ -95,7 +95,7 @@ const EditContact = () => {
           <IoReturnUpBackOutline className="text-xl font-bold" /> Back
         </Link>
       </div>
-      <div className="flex gap-3 mt-4">
+      <div className="grid grid-cols-1  sm:flex gap-3 mt-4">
         <div className="w-[200px] h-[200px] rounded-full overflow-hidden group relative">
           <div className="flex gap-2 justify-center text-3xl text-white  items-center w-full h-full absolute bg-black/70 opacity-0 transition duration-500 group-hover:opacity-100 ">
             <FaRegEdit
